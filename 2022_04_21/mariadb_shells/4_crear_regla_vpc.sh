@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. Obtener nombre de la instancia actual
-hname=$(hostname)
+hname=$(hostname -s)
 echo "Instancia actual: $hname"
 
 # 2. Obtener el ID del Proyecto (forma más segura)
